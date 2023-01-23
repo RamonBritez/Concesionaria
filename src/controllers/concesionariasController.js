@@ -1,4 +1,3 @@
-const dbConcesionarias = require('../database');
 const db = require('../database');
 
 module.exports = {
@@ -32,4 +31,5 @@ module.exports = {
 
         return res.send(sucursal)
     },
+
 }
